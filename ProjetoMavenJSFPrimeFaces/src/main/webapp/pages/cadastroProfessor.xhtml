@@ -17,7 +17,7 @@
 	  
 	  <h1><p:outputLabel value="#{msg['pages.cadastroProfessor.menu']}"/></h1>
 	  
-	  <h:form id="formAluno">	
+	  <h:form id="formProfessor">	
 	  <p:panelGrid columns="2">
       <p:outputLabel value="#{msg['pages.cadastroProfessor.matricula']}" />
       <p:inputText value="#{professorManagedBean.professor.matricula}"/>
@@ -42,8 +42,8 @@
       <p:column headerText="#{msg['pages.cadastroProfessor.nome']}">
         <p:outputLabel value="#{aux.nome}" />
       </p:column>
-      <p:column headerText="#{msg['pages.cadastroProfessor.curso']}">
-        <p:outputLabel value="#{aux.curso}" />
+      <p:column headerText="#{msg['pages.cadastroProfessor.materia']}">
+        <p:outputLabel value="#{aux.materia}" />
       </p:column>
       
    </p:dataTable>	
