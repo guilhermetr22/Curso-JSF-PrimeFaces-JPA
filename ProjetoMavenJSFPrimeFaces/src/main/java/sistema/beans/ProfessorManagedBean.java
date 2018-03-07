@@ -20,7 +20,6 @@ public class ProfessorManagedBean {
 	{
 		service.salvar(professor);
 		professor = new Professor();
-		
 	}
 
 	public Professor getProfessor() {

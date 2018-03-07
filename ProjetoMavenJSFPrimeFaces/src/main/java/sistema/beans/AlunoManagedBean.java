@@ -19,7 +19,6 @@ public class AlunoManagedBean {
 	{
 		service.salvar(aluno);
 		aluno = new Aluno();
-		
 	}
 
 	public Aluno getAluno() {
@@ -33,9 +32,4 @@ public class AlunoManagedBean {
 	public List<Aluno> getAlunos() {
 		return service.getAlunos();
 	}
-
-	
-	
-	
-
 }
